@@ -397,14 +397,6 @@ lookup asterisk_slash.liga {
  sub asterisk' slash by SPC;
 } asterisk_slash.liga;
 
-lookup asterisk_asterisk_asterisk.liga {
-ignore sub asterisk asterisk' asterisk asterisk;
-ignore sub asterisk' asterisk asterisk asterisk;
-sub SPC SPC asterisk' by asterisk_asterisk_asterisk.liga;
-sub SPC asterisk' asterisk by SPC;
-sub asterisk' asterisk asterisk by SPC;
-} asterisk_asterisk_asterisk.liga;
-
 lookup plus_plus.liga {
 ignore sub plus plus' plus;
 ignore sub plus' plus plus;
